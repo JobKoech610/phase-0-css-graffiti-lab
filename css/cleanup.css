@@ -1,1 +1,35 @@
 /* write your override styles here */
+/*specificity 110*/
+#wall .tag-1{
+  display: none;
+}
+
+/*specificity 201*/
+#wall div#tag-2 {
+  display: none;
+}
+
+/* specificity 221 */
+div#wall #tag-3.slick.wicked{
+  display: none;
+}
+
+/* specificity 202 */
+#wall div > div#tag-4{
+  display: none;
+}
+
+/* specificity 223 */
+body div#wall .parent div#tag-5.slick{
+display: none;
+}
+
+/* specificity 226 */
+html body div#wall div.parent div:last-child div#tag-6 {
+display: none;
+}
+
+/* specificity 226 */
+html body div#wall div.parent div > div#tag-7.slick {
+display: none;
+}
